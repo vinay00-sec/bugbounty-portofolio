@@ -6,7 +6,6 @@ Opzetten van een homelab (Debian VM) en eerste TryHackMe-rooms starten.
 
 ## VM: Debian-VM
 - Hostname: debian-vm
-- User: student
 - SSH: ingeschakeld (openssh-server)
 - Snapshot: Debian-clean-install
 
@@ -18,8 +17,8 @@ Opzetten van een homelab (Debian VM) en eerste TryHackMe-rooms starten.
 - nmap, tcpdump, vim, jq
 
 ## Netwerk
-- VirtualBox networking: NAT (met port forwarding 2222->22) of Bridged
-- Test SSH (bij NAT + portforward): `ssh student@localhost -p 2222`
+- VirtualBox networking
+- Test SSH
 
 ## Eerste TryHackMe-rooms (Week1)
 1. Pre-Security — inleiding, basisconcepten.
@@ -35,3 +34,4 @@ Opzetten van een homelab (Debian VM) en eerste TryHackMe-rooms starten.
 - Voltooi 3–5 THM-rooms deze week.
 - Start ISC² CC en Security+ microstudie (30–45m/dag).
 - Documenteer elke room in deze repo onder `/Week1`.
+
